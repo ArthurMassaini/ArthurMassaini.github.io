@@ -18,3 +18,12 @@ h4{
 .texto-padrao{
     font-size: 18px;
 }
+
+.button-indice{
+    background-color: #133F67;
+    color:#F6F4F3;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 5px 10px;
+}
