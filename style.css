@@ -1,0 +1,20 @@
+body{
+    font-family: 'Baloo Tamma 2', sans-serif;
+    background-color: #F6F4F3;
+}
+
+img{
+    border-radius: 30%;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.fonte-habilidade{
+    font-size: 20px;
+}
+
+.texto-padrao{
+    font-size: 18px;
+}
