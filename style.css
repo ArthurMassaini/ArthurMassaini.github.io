@@ -33,6 +33,27 @@ h2{
     text-align: center;
 }
 
+
+.header-indice{
+    margin: 20px;    
+    padding: 20px 40px;
+}
+
+.header-indice a:hover{
+    background-color: #368F8B;
+}
+
+.button-indice{
+    background-color: #1C5253;
+    color:#F6F4F3;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 5px 10px;
+}
+
+
 .info{
     margin: 35px;    
     padding: 30px 70px;
@@ -79,16 +100,6 @@ h2{
 .fotter img{
     width: 60px;
     display: inline-block;
-}
-
-
-.button-indice{
-    background-color: #133F67;
-    color:#F6F4F3;
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: 10%;
-    padding: 5px 10px;
 }
 
 
