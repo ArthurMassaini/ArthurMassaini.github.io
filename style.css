@@ -3,21 +3,84 @@ body{
     background-color: #F6F4F3;
 }
 
-img{
-    border-radius: 30%;
+p, li{
+    font-size: 18px;
 }
 
-h4{
-    font-weight: bold;
+h2{
+    background-color: #D5D0CD;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.color{
+    color: #575D90;
 }
 
 .fonte-habilidade{
     font-size: 20px;
 }
 
-.texto-padrao{
-    font-size: 18px;
+
+.header h1{
+    margin-bottom: 2px;
+    text-align: center;
 }
+
+.header h4{
+    font-weight: bold;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.info{
+    margin: 35px;    
+    padding: 30px 70px;
+}
+
+.info-img{
+    max-width: 30%;
+    background-color:#1C5253;
+    display:inline-block;
+    border: 3px double black;
+    margin-right: 20px;
+}
+
+.info-img img{
+    border-radius: 50%;
+    width: 250px;
+    margin: 10px 20px;
+    border: 4px ridge black; 
+}
+
+.info-text{
+    max-width: 30%;
+    display: inline-block;
+}
+
+.info-text p{
+    text-align: center;
+}
+
+
+.habilidades{
+    clear: both;
+    margin: 35px;
+    padding: 30px 70px;
+}
+
+
+.fotter{
+    margin: 35px;
+    padding: 30px 70px;
+    text-align: center;
+}
+
+.fotter img{
+    width: 60px;
+    display: inline-block;
+}
+
 
 .button-indice{
     background-color: #133F67;
@@ -28,9 +91,27 @@ h4{
     padding: 5px 10px;
 }
 
-.button-links{
-    background-color: #3D52D5;
+
+.return{
+    margin: 35px;
+    padding: 30px 70px;
+}
+
+.return a:hover{
+    background-color: #368F8B;
+}
+
+.button-return{
+    background-color: #1C5253;
     color:#F6F4F3;
+    text-decoration: none;
     border-radius: 10%;
-    padding: 2px 4px;
+    padding: 8px 10px;
+    font-size: 15px;
+    margin-bottom: 100px;
+} 
+
+.mensagem{
+    margin: 35px;
+    padding: 30px 70px;
 }

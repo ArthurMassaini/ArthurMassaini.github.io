@@ -4,20 +4,46 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Bem vindo ao meu portifólio</title>
+        <title>Bem vindo ao meu portifólio!</title>
 
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet" media="all">
+        
 
     </head>
 
     <body>
-        
-        <h1 id="nome">Arthur Massaini de Santana</h1>
-        <h4>Goiânia-GO, Brasil</h4>
 
+        <div class="header">
+            <h1 id="nome" class="color">Arthur Massaini de Santana</h1>
+            <h4 class="color">Goiânia-GO, Brasil</h4>
+        </div>
+        
+
+
+        <div class="info">
+
+            <div class="info-img">
+                <a href="images/foto_arthur.jpeg"><img src="images/foto_arthur.jpeg" alt="foto_frontal"></a> 
+                
+            </div>
+            
+            
+          
+            <div class="info-text">
+                <h2 id="description" class="color">Descrição pessoal:</h2>
+                <p>
+                    Apaixonado por tecnologia e ciência, estudando desenvolvimento de sotfware com o objetivo de ser um desenvolvedor
+                    full-stack e acredito que minha área pode transformar o mundo em um lugar melhor.<br>
+                    Amo viajar, conhecer diferentes culturas e sempre aberto para novas experiências!
+                </p>
+            </div>
+
+        </div>  
+
+        
         <!-- Aqui é o indice  -->
-        <h3>Índice:</h3>
+        <!-- <h3>Índice:</h3>
         <ol>
             <li>
                 <a class="button-indice" href="#description">DESCRIÇÃO</a>
@@ -28,36 +54,49 @@
             <li>
                 <a class="button-indice" href="#links">LINKS</a>
             </li>
-        </ol>
+        </ol> -->
 
-        <img src="images/foto_arthur.jpeg" alt="foto_frontal" width="250px">  
+         
 
 
-        <!-- Aqui é a Descrição pessoal  -->
-        <h2 id="description">Descrição pessoal:</h2>
-        <p class="texto-padrao">
-            Apaixonado por tecnologia e ciência, estudando desenvolvimento de sotfware com o objetivo de ser um desenvolvedor
-            full-stack e acredito que minha área pode transformar o mundo em um lugar melhor.
-        </p>
+        <div class="habilidades">
+            
+            <h2 id="skills" class="color">Lista de habilidades:</h2>          
+            <ul>
+                <li class="fonte-habilidade"><strong>Pensamento lógico e racional</strong></li>
+                <li>Comunicação assertiva</li>
+                <li class="fonte-habilidade"><strong>Pensamento crítico</strong></li>
+                <li>Capacidade de resolução</li>    
+                <li class="fonte-habilidade"><strong>Alta curva de aprendizagem</strong></li>
+                <li>Foco e paciência</li>
+            </ul>
+
+        </div>
         
 
-        <!-- Aqui é a Lista de habilidades   -->
-        <h2 id="skills">Lista de habilidades:</h2>
-        <ul>
-            <li class="fonte-habilidade"><strong>Pensamento lógico e racional</strong></li>
-            <li class="texto-padrao">Comunicação assertiva</li>
-            <li class="texto-padrao">Pensamento crítico</li>
-            <li class="texto-padrao">Capacidade de resolução</li>    
-            <li class="texto-padrao">Alta curva de aprendizagem</li>
-            <li class="texto-padrao">Foco e paciência</li>
-        </ul>
+        
 
-        <!-- Aqui é a lista de links  -->
-        <h2 id="links">Blogs de interesse e links úteis:</h2>
-        <a class= "button-links" href="https://jovemnerd.com.br/" target="_blank">Blog Jovem Nerd</a> |
-        <a class= "button-links" href="https://blog.br.playstation.com/" target="_blank">Blog playstation</a> <br><br>
-        <a class= "button-links" href="images/foto_arthur.jpeg">Ampliar a foto</a> |
-        <a class= "button-links" href="#nome">Retornar ao topo da página</a>
+        <div class="fotter">
+            <h2 id="links" class="color">Quer saber um pouco mais?</h2>
+            
+            <a href="https://www.linkedin.com/in/arthur-massaini-de-santana-0b1b77150/" target="_blank">
+                <img src="https://icons-for-free.com/iconfiles/png/512/linked+linkedin+logo+social+icon-1320191784782940875.png" alt="LogoLinkedin">
+            </a> 
+            <a href="https://github.com/ArthurMassaini" target="_blank">
+                <img src="https://icons-for-free.com/iconfiles/png/512/github+icon-1320168274457504277.png" alt="LogoGithub">
+            </a>        
+        </div>    
+
+        <div class="return">
+            <a class= "button-return" href="#nome">Retornar ao topo da página</a> 
+        </div>
+        
+        <div class="mensagem">
+            <script language="javascript" src="https://www.pensador.com/blog.php?t=fm"></script>
+        </div>
+        
+
+        
 
     </body>
 
